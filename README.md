@@ -1,7 +1,7 @@
 # Three_stage_former_for_ECG
 
 A lightweight and efficient multi-scale transformer model, especially suitable for multi-channel time-sequential data classification like ECG signals!  
-Feel free to check more details in our 📄 Paper
+This paper was accepted by MIDL 2025 as a short paper. Feel free to check more details in our 📄 Paper
 
 📌 Check out our paper:  
 **[Hierarchical Transformer for Electrocardiogram Diagnosis](https://arxiv.org/abs/2411.00755)**  
