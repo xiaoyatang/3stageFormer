@@ -1,3 +1,4 @@
 # Three_stage_former_for_ECG
-A final version of three_stage_former for KCL and Challenge20 data.
-Code is being sorted and coming soon.
+A lightweight and efficient multi-scale transformer model, especially suitable for time-sequential data classification.
+Feel free to check more details in our paper 
+
