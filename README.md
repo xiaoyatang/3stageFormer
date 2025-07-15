@@ -9,5 +9,14 @@ Feel free to check more details in our 📄 Paper
 
 ---
 
-📝 If you find this repository helpful, please cite our paper:  
-**Tang, Xiaoya, et al. "Hierarchical Transformer for Electrocardiogram Diagnosis." arXiv preprint arXiv:2411.00755 (2024).**
+## 📚 Citation
+
+If you find this repository useful, please consider giving a star ⭐ and citing our work 🩺:
+
+```bibtex
+@article{tang2024hierarchical,
+  title={Hierarchical Transformer for Electrocardiogram Diagnosis},
+  author={Tang, Xiaoya and Berquist, Jake and Steinberg, Benjamin A and Tasdizen, Tolga},
+  journal={arXiv preprint arXiv:2411.00755},
+  year={2024}
+}
