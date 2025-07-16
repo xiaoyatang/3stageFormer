@@ -15,8 +15,8 @@ Our model is built upon the champion **['prna'](https://www.cinc.org/archives/20
 To run our model, please create the conda environment using the provided `environment.yml`:
 
 ```bash
-conda env create -f environment.yml
-conda activate prna-oldlib
+conda env create -f environment.yml -n your_env_name
+conda activate your_env_name
 
 
 ---
