@@ -13,7 +13,7 @@ Our model is built upon the champion **['prna'](https://www.cinc.org/archives/20
 
 To reproduce our results on the PhysioNet2020 Challenge data, you need to download their data from their **[website](https://moody-challenge.physionet.org/2020/)** , **OR** follow the instructions below.
 
-### 🔽 Step 1: Download Required Files
+### 🔽 Step 1: Download Required Files(this step is to prepare necessary files used by 'prna')
 
 Download the required folders from the shared Google Drive link:
 
@@ -41,14 +41,25 @@ feats/
 ├── get_feats.py
 └── signal_process.py
 ```
+### 📂 Step 3: Data Downloading
+Download the data from the shared Google Drive link:
 
-## 🛠 Environment Setup
+👉 [Download data folders from Google Drive](https://drive.google.com/drive/folders/1XWfkR159jWJCcC6jJ9DQECq4XV-of8JG?usp=sharing)
+
+Place the downloaded folders inside a main directory.
+
+
+## 🛠 Step 4: Environment Setup
 
 To run our model, please create the conda environment using the provided `environment.yml`:
 
 ```bash
 conda env create -f environment.yml -n your_env_name
 conda activate your_env_name
+```
+## 🛠 Step 5:  Running
+```bash
+python train_model.py ./physionet/data/classification-of-12-lead-ecgs-the-physionetcomputing-in-cardiology-challenge-2020-1.0.2/training path_to_your_output
 ```
 
 ---
