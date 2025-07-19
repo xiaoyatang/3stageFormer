@@ -9,11 +9,10 @@ This paper was accepted by MIDL 2025 as a short paper. Feel free to check more d
 
 ---
 Our model is built upon the champion **['prna'](https://www.cinc.org/archives/2020/pdf/CinC2020-107.pdf)** of the PhysioNet2020 Challenge, a plain transformer architecture. Thanks to their great pioneering work.
-## 📁 `feats` Directory Setup
 
 To reproduce our results on the PhysioNet2020 Challenge data, you need to download their data from their **[website](https://moody-challenge.physionet.org/2020/)** , **OR** follow the instructions below.
 
-### 🔽 Step 1: Download Required Files(this step is to prepare necessary files used by 'prna')
+### 📁 `feats` Directory Setup. Step 1: Download Required Files(this step is to prepare necessary files used by 'prna')
 
 Download the required folders from the shared Google Drive link:
 
