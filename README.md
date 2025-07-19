@@ -49,7 +49,7 @@ To run our model, please create the conda environment using the provided `enviro
 ```bash
 conda env create -f environment.yml -n your_env_name
 conda activate your_env_name
-
+```
 
 ---
 ## 📚 Citation
