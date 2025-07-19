@@ -8,8 +8,39 @@ This paper was accepted by MIDL 2025 as a short paper. Feel free to check more d
 → [https://arxiv.org/abs/2411.00755](https://arxiv.org/abs/2411.00755)
 
 ---
-To reproduce our results on the PhysioNet2020 Challenge data, you may need to download their data from their **[website](https://moody-challenge.physionet.org/2020/)** .
 Our model is built upon the champion **['prna'](https://www.cinc.org/archives/2020/pdf/CinC2020-107.pdf)** of the PhysioNet2020 Challenge, a plain transformer architecture. Thanks to their great pioneering work.
+## 📁 `feats` Directory Setup
+
+To reproduce our results on the PhysioNet2020 Challenge data, you need to download their data from their **[website](https://moody-challenge.physionet.org/2020/)** , **OR** follow the instructions below.
+
+### 🔽 Step 1: Download Required Files
+
+Download the required folders from the shared Google Drive link:
+
+👉 [Download feats folders from Google Drive](https://drive.google.com/drive/folders/1XWfkR159jWJCcC6jJ9DQECq4XV-of8JG?usp=sharing)
+
+Simply place the downloaded folders inside a local directory named `feats`.
+
+---
+
+### 📂 Step 2: Directory Structure
+
+Your `feats/` directory should look like this:
+feats/
+├── CPSC-Extra/
+├── Georgia/
+├── PTB/
+├── PTB-XL/
+├── StPetersburg/
+├── pyeeg/
+├── utils/
+├── __init__.py
+├── dataset.py
+├── feature_map.py
+├── get_feats.py
+└── signal_process.py
+
+
 ## 🛠 Environment Setup
 
 To run our model, please create the conda environment using the provided `environment.yml`:
