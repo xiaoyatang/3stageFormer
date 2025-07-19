@@ -26,6 +26,7 @@ Simply place the downloaded folders inside a local directory named `feats`.
 ### 📂 Step 2: Directory Structure
 
 Your `feats/` directory should look like this:
+```text
 feats/
 ├── CPSC-Extra/
 ├── Georgia/
