@@ -65,6 +65,7 @@ python train_model.py ./data/classification-of-12-lead-ecgs-the-physionetcomputi
 ---
 ## 📚 Citation
 
+Feel free to raise an issue or contact us if your find any problems when running this model!
 If you find this repository useful, please consider giving a star ⭐ and citing our work 🩺:
 
 ```bibtex
