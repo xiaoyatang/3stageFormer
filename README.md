@@ -43,9 +43,9 @@ feats/
 ### 📂 Step 3: Data Downloading
 Download the data from the shared Google Drive link:
 
-👉 [Download data folders from Google Drive, uploading, finish soon.]()
+👉 [Download data folders](https://drive.google.com/file/d/1X9ORozkSYE0NGX8GdyKgzVENX5NOsu7e/view?usp=sharing)
 
-Make an empty folder 'data', put it under the main directory. Unzip the downloaded file and place them under 'data'.
+Make an empty folder 'data', put it under the main directory. Unzip the downloaded file and place it under 'data'.
 
 If you are using your own dataset, you can skip this step and specify the path to your data. 
 
