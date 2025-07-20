@@ -43,10 +43,11 @@ feats/
 ### 📂 Step 3: Data Downloading
 Download the data from the shared Google Drive link:
 
-👉 [Download data folders from Google Drive](https://drive.google.com/drive/folders/1XWfkR159jWJCcC6jJ9DQECq4XV-of8JG?usp=sharing)
+👉 [Download data folders from Google Drive, uploading, finish soon.]()
 
-Place the downloaded folders inside a main directory.
+Make an empty folder 'data', put it under the main directory. Unzip the downloaded file and place them under 'data'.
 
+If you are using your own dataset, you can skip this step and specify the path to your data. 
 
 ## 🛠 Step 4: Environment Setup
 
@@ -58,7 +59,7 @@ conda activate your_env_name
 ```
 ## 🛠 Step 5:  Running
 ```bash
-python train_model.py ./physionet/data/classification-of-12-lead-ecgs-the-physionetcomputing-in-cardiology-challenge-2020-1.0.2/training path_to_your_output
+python train_model.py ./data/classification-of-12-lead-ecgs-the-physionetcomputing-in-cardiology-challenge-2020-1.0.2/training path_to_your_output
 ```
 
 ---
